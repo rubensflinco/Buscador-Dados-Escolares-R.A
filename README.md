@@ -1,5 +1,4 @@
-Este código, ele captura informações pessoa```
-is do R.A (Registro Acadêmico)
+Este código, ele captura informações pessoais do R.A (Registro Acadêmico)
 
 Informando 
 
