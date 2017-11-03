@@ -2,13 +2,18 @@ Este código, ele captura informações pessoais do R.A (Registro Acadêmico)
 
 Informando 
 
-
  Nome do Pai
+ 
  Nome da Mãe
+ 
  Estado Civil
+ 
  CPF ( Se tiver registrado )
+ 
  RG ( Se tiver registrado )
+ 
  Cidade de Nasc. - UF
+ 
  Endereço Residencial
 
 
