@@ -17,7 +17,7 @@ Para utilizar sao necessario informar ao nosso sistema 4 informações...<br>
 <i>Codigo R.A (Exemplo: 000109165828 )</i><br>
 <i>Digito do R.A (Exemplo: 1 )</i><br>
 <i>UF (Estado que o R.A se encontra)</i><br>
-<i>Data de Nascimento [ <b>%d/%m/%Y</b> ] (Exemplo 02/11/2017) </i>
+<i>Data de Nascimento <b>%d/%m/%Y</b> (Exemplo 02/11/2017) </i>
 <br>
 <blockquote> Comando: <i>python pesquisar.py [R.A] [Digito do R.A] [UF] [Data Nascimento]</i>
 
