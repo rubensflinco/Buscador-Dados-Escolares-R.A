@@ -20,5 +20,5 @@ Para utilizar sao necessario informar ao nosso sistema 4 informações...<br>
 <i>Data de Nascimento <b>%d/%m/%Y</b> (Exemplo 02/11/2017) </i>
 <br>
 <blockquote> Comando: <i>python pesquisar.py [R.A] [Digito do R.A] [UF] [Data Nascimento]</i>
-
+<br>
 Exemplo de Comando:  python pesquisar.py 1234567890 2 SP 01/01/1999</blockquote> 
