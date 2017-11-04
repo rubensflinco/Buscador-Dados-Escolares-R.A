@@ -18,7 +18,8 @@ data_nascimento = sys.argv[4]
 password = 'PWGroupHue'
 UF = sys.argv[3]
 user = ra+digito+UF.lower()
-os.unlink(user+'.html')
+if os.path.exists(user+'.html'):
+   os.unlink(user+'.html')
 ##Formatar data para o tipo Y-M-D
 formatar_data = datetime.datetime.strptime(data_nascimento, '%d/%m/%Y')
 data_nascimento = datetime.date.strftime(formatar_data, "%Y-%m-%d")
