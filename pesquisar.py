@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os, sys, json, requests, argparse, datetime
-from cookielib import LWPCookieJar
+import http.cookiejar
 
 ##Verificar se o comando não é null
 if len(sys.argv) < 4:
@@ -58,7 +58,7 @@ if s3_resposta['DefinirSenha'] is True:
 ##Realizando o Login para Capturar os Cookies
 ##Conectando na pagina  https://sed.educacao.sp.gov.br/Aluno/ConsultaAluno com os Cookies de Login Salvo
 s = requests.Session()
-s.cookies = LWPCookieJar(user)
+s.cookies = http.cookiejar.LWPCookieJar(user)
 print('Salvando cookie [ OK ]')
 s.cookies.save()
 data = {"usuario":user, "senha":password}
