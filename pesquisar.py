@@ -9,8 +9,8 @@ if len(sys.argv) < 4:
     print("python pesquisar.py <R.A> <Digito> <UF> <Data Nascimento> ")
     sys.exit(1)
 ##Codigo para formatar texto para UTF-8, se livrar do erro UnicodeDecodeError
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
+
 ##Capturar informacoes <R.A> <Digito> <UF> <Data Nascimento>
 ra = sys.argv[1]
 digito = sys.argv[2]
@@ -76,7 +76,7 @@ text = text1+text[i+len('<div class="row">'):i+i2]
 text =  "<head><title>Dados " + user +" </title><meta charset='UTF-8'></head>"+text.replace('Meus Dados','')
 text = text.replace('disabled="disabled"', '')
 arq = open(user+".html", "w")
-arq.write(text.encode('utf-8'))
+arq.write(text)
 arq.close()
 s.cookies.save(ignore_discard=True)
 print('Arquivo de dados salvo [ OK ]')
