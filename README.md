@@ -10,6 +10,7 @@
     <li>RG ( Se tiver registrado )   </li>
     <li>Cidade de Nasc. - UF   </li>
     <li>Endereço Residencial   </li>
+    <li>Horários de aula do aluno com nome dos professores</li>
   </ol>
 <br>
 <h3>Comando de uso </h3>
@@ -21,4 +22,5 @@ Para utilizar sao necessario informar ao nosso sistema 4 informações...<br>
 <br>
 <blockquote> Comando: <i>python pesquisar.py [R.A] [Digito do R.A] [UF] [Data Nascimento]</i>
 <br>
-Exemplo de Comando:  python pesquisar.py 1234567890 2 SP 01/01/1999</blockquote> 
+Erro falando PIP ou algum modulo use o comando : py -m pip install (NOME DO MODULO FALTANDO)
+Exemplo de Comando:  py pesquisar.py 00012345 X SP 01/01/2000</blockquote> 
