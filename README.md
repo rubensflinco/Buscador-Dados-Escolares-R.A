@@ -1,3 +1,5 @@
+#Buscador-Dados-Escolares-R.A
+<hr>
 <h1>Introdução</h1>
 <i>Este código, ele captura informações pessoais do R.A (Registro Acadêmico)</i>
 <br>
