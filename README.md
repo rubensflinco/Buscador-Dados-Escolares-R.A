@@ -1,6 +1,11 @@
 # Buscador-Dados-Escolares-R.A
 Este código, ele captura informações pessoais do R.A (Registro Acadêmico)
-<br><br>
+<br>
+# Repositório oficial
+<a href="https://gitlab.com/adriancesarf/Buscador_de_R.A">Acessar no GitLab</a>
+<br>ou<br>
+<a href="https://gitlab.com/adriancesarf/Buscador_de_R.A">https://gitlab.com/adriancesarf/Buscador_de_R.A</a>
+<br>
 <h1>Introdução</h1>
 <i>Este código, ele captura informações pessoais do R.A (Registro Acadêmico)</i>
 <br>
