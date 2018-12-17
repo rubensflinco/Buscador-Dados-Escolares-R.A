@@ -4,6 +4,9 @@
 import os, sys, json, requests, argparse, datetime
 import http.cookiejar
 
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 ##Verificar se o comando não é null
 if len(sys.argv) < 4:
     print("python pesquisar.py <R.A> <Digito> <UF> <Data Nascimento> ")
