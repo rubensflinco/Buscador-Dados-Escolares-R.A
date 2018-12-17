@@ -6,6 +6,17 @@ Este código, ele captura informações pessoais do R.A (Registro Acadêmico)
 <br>ou<br>
 <a href="https://gitlab.com/adriancesarf/Buscador_de_R.A">https://gitlab.com/adriancesarf/Buscador_de_R.A</a>
 <br>
+# Requisitos
+* Python 3.X
+* Pip
+* Requests (module pip)
+```
+pip install requests
+```
+* Cookiejar (module pip)
+```
+pip install cookiejar
+```
 <h1>Introdução</h1>
 <i>Este código, ele captura informações pessoais do R.A (Registro Acadêmico)</i>
 <br>
